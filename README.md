@@ -35,7 +35,7 @@ We will create a new project to add typeorm package.
   mkdir backend-project
   cd backend-project
   npm init -y
-  npm i typeorm ts-node --save
+  npm i typeorm ts-node typescript pg --save
 ```
 
 Now you can create a new typeorm application and synchronize with database:
