@@ -1,0 +1,20 @@
+{
+  "name": "new-typeorm-project",
+  "version": "0.0.1",
+  "description": "Awesome project developed with TypeORM.",
+  "devDependencies": {
+    "@types/node": "^8.0.29",
+    "ts-node": "^3.3.0",
+    "typescript": "3.3.3333"
+  },
+  "dependencies": {
+    "backend-project": "file:backend-project",
+    "pg": "^7.3.0",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "^0.2.21"
+  },
+  "scripts": {
+    "start:backend": "npm i backend-project && ts-node backend-project/src/index.ts",
+    "ts-typeorm": "./node_modules/.bin/ts-node ./node_modules/.bin/typeorm"
+  }
+}
